@@ -33,7 +33,8 @@ public class EmployeeRestController {
 
     @PostMapping("/employees")
     public Employee addEmployee(@RequestBody Employee employee) {
-        /* in case an id is passed in JSON, set it to 0.
+        /*
+        * In case an id is passed in JSON, set it to 0.
         * This is to force a save of new item instead of update.
         */
         employee.setId(0);

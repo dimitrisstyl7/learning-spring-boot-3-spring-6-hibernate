@@ -20,7 +20,6 @@ public class EmployeeDaoImpl implements EmployeeDao {
 
     @Override
     public List<Employee> findAll() {
-        var x = entityManager.createQuery("from Employee", Employee.class).getResultList();
-        return x;
+        return entityManager.createQuery("from Employee", Employee.class).getResultList();
     }
 }

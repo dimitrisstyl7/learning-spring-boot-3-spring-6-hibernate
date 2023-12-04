@@ -11,8 +11,8 @@
     <groupId>com.dimstyl</groupId>
     <artifactId>springcoredemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>01-constructor-injection</name>
-    <description>01-constructor-injection</description>
+    <name>springcoredemo</name>
+    <description>springcoredemo</description>
     <properties>
         <java.version>21</java.version>
     </properties>

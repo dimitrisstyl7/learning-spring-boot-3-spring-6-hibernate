@@ -11,8 +11,8 @@
     <groupId>com.dimstyl</groupId>
     <artifactId>cruddemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-boot-rest-crud-employee</name>
-    <description>spring-boot-rest-crud-employee</description>
+    <name>spring-boot-rest-security</name>
+    <description>spring-boot-rest-security</description>
     <properties>
         <java.version>21</java.version>
     </properties>

@@ -1,6 +1,6 @@
-package com.dimstyl.cruddemo.service;
+package com.dimstyl.springboot.thymeleafdemo.service;
 
-import com.dimstyl.cruddemo.entity.Employee;
+import com.dimstyl.springboot.thymeleafdemo.entity.Employee;
 
 import java.util.List;
 

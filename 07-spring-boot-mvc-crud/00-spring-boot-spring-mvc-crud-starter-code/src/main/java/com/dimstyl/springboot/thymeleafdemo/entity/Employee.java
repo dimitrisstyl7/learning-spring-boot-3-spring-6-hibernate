@@ -1,4 +1,4 @@
-package com.dimstyl.cruddemo.entity;
+package com.dimstyl.springboot.thymeleafdemo.entity;
 
 import jakarta.persistence.*;
 

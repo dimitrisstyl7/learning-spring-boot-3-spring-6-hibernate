@@ -1,8 +1,8 @@
-package com.dimstyl.cruddemo.service.impl;
+package com.dimstyl.springboot.thymeleafdemo.service.impl;
 
-import com.dimstyl.cruddemo.entity.Employee;
-import com.dimstyl.cruddemo.repository.EmployeeRepository;
-import com.dimstyl.cruddemo.service.EmployeeService;
+import com.dimstyl.springboot.thymeleafdemo.entity.Employee;
+import com.dimstyl.springboot.thymeleafdemo.repository.EmployeeRepository;
+import com.dimstyl.springboot.thymeleafdemo.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -27,7 +27,7 @@ public class CruddemoApplication {
         int id = 2;
         System.out.println("Finding instructor with id: " + id + "...");
 
-        Instructor instructor = appDAO.findById(id);
+        Instructor instructor = appDAO.findInstructorById(id);
         System.out.println("Found instructor: " + instructor);
     }
 

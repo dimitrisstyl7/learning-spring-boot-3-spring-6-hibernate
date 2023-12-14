@@ -23,7 +23,7 @@ public class AppDAOImpl implements AppDAO {
     }
 
     @Override
-    public Instructor findById(int id) {
+    public Instructor findInstructorById(int id) {
         return entityManager.find(Instructor.class, id);
     }
 }

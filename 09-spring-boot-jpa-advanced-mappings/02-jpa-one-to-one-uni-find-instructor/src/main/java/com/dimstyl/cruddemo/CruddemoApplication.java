@@ -29,6 +29,8 @@ public class CruddemoApplication {
 
         Instructor instructor = appDAO.findInstructorById(id);
         System.out.println("Found instructor: " + instructor);
+
+        System.out.println("Found instructor detail: " + instructor.getInstructorDetail());
     }
 
     private void createInstructor(AppDAO appDAO) {

@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class MyDemoLoggingAspect {
     @Before("execution(* add*(com.dimstyl.aopdemo.Account, ..))")
-    public void beforeAddAccountAdvice() {
-        System.out.println("\n=====>>> Executing @Before advice on addAccount()");
+    public void beforeAddStarWithSpecificParamTypeAndMoreParamsAdvice() {
+        System.out.println("\n=====>>> Executing @Before advice on add* method with specific parameter type and more parameters");
     }
 }
